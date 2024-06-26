@@ -10,23 +10,26 @@ highlighter:      pygments
 permalink: "/:title.html"
 
 # Setup
-title:            Hyde
+title:            Pagidimarri Nagendar
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Experienced Software Engineer Specializing in building Scalable Systems | B.Tech in Computer Science'
 url:              https://nagendar-pm.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Pagidimarri Nagendar'
+  url:            https://www.linkedin.com/in/nagendar-pagidimarri/
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+# version:          2.1.0
 
 github:
   repo:           https://github.com/nagendar-pm/
+
+resume:
+  link:           https://drive.google.com/file/d/1yAjysYibu5_TYz_1J8LNBk3EYWgc4D0T/view?usp=drive_link
 
 plugins:
   - jekyll-feed
