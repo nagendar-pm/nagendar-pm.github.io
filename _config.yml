@@ -1,6 +1,7 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# markdown:         redcarpet
+# highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink: "/:categories/:title.html"
@@ -20,6 +21,10 @@ paginate:         5
 
 # Custom vars
 # version:          2.1.0
+
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 github:
   repo:           https://github.com/nagendar-pm/
@@ -48,3 +53,6 @@ plugins:
 #       paginate_path: '/projects/page/:num/'
 #       layout: category
 #       category: projects
+
+plugins: [jekyll-paginate]
+paginate_path: "/projects/page:num/"
