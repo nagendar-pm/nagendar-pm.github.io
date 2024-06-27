@@ -1,7 +1,6 @@
 # Dependencies
-# markdown:         redcarpet
-# highlighter:      pygments
-highlighter:      rouge
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
 permalink: "/:categories/:title.html"
@@ -22,9 +21,6 @@ paginate:         5
 # Custom vars
 # version:          2.1.0
 
-kramdown:
-  input: GFM
-  hard_wrap: false
 
 github:
   repo:           https://github.com/nagendar-pm/
