@@ -33,18 +33,18 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
 
-pagination:
-  enabled: true
-  per_page: 5
-  title: ':title - page :num'
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
-  categories:
-    projects:
-      path: '/projects/page/:num/'
-      paginate_path: '/projects/page/:num/'
-      layout: category
-      category: projects
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   title: ':title - page :num'
+#   sort_field: 'date'
+#   sort_reverse: true
+#   trail:
+#     before: 2
+#     after: 2
+#   categories:
+#     projects:
+#       path: '/projects/page/:num/'
+#       paginate_path: '/projects/page/:num/'
+#       layout: category
+#       category: projects
