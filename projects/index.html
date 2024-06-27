@@ -13,8 +13,10 @@ order: 1
         </a>
         </h2>
         <p>
-            <span class="post-date">{{ post.date | date_to_string }}
-            - {{ post.content | strip_html | truncatewords: 50 }}...
+            <span class="post-excerpt">
+                {{ post.date | date_to_string }} - 
+                {{ post.excerpt  | replace:'<p>','' | replace:'</p>','' }}
+                <!-- - {{ post.content | strip_html | truncatewords: 50 }}... -->
             </span>
         </p>
     </div>

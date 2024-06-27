@@ -344,12 +344,20 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
-/* Meta data line below post title */
+/* Meta data line below post title for date */
 .post-date {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+}
+
+/* Meta data line below post title */
+.post-excerpt {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #6a6a6a;
 }
 
 /* Related posts */
