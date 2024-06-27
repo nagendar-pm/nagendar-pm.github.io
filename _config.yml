@@ -50,5 +50,4 @@ plugins:
 #       layout: category
 #       category: projects
 
-plugins: [jekyll-paginate]
-paginate_path: "/projects/page:num/"
+# paginate_path: "/projects/page:num/"
