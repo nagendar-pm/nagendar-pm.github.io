@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "My Blog Post"
 date: 2024-01-01
 categories: projects
