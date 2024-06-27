@@ -2,17 +2,13 @@
 markdown:         redcarpet
 highlighter:      pygments
 
-# # Permalinks
-# permalink:        pretty
-# relative_permalinks: true
-
 # Permalinks
-permalink: "/:title.html"
+permalink: "/:categories/:title.html"
 
 # Setup
 title:            Pagidimarri Nagendar
 tagline:          'A Jekyll theme'
-description:      'Experienced Software Engineer Specializing in building Scalable Systems | B.Tech in Computer Science'
+description:      'Experienced Software Engineer specializing in building scalable systems | B.Tech in Computer Science'
 url:              https://nagendar-pm.github.io
 baseurl:          /
 
@@ -35,3 +31,20 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-paginate
+
+pagination:
+  enabled: true
+  per_page: 5
+  title: ':title - page :num'
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  categories:
+    projects:
+      path: '/projects/page/:num/'
+      paginate_path: '/projects/page/:num/'
+      layout: category
+      category: projects
