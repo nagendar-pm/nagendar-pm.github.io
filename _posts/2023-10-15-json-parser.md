@@ -3,7 +3,8 @@ layout: post
 title: "Json Parser"
 date: 2023-10-15
 categories: projects
-githubRepo : 'https://github.com/nagendar-pm/json-parser/blob/main/'
+repo : 'https://github.com/nagendar-pm/json-parser/'
+filePath : 'blob/main/'
 rawParam : '?raw=true'
 ---
 
@@ -12,6 +13,9 @@ JSON Parser is a perfect place where I wanted to learn about JSON, how different
 <!--more-->
 
 A simple java project written to parse JSON text.<br>
+
+> You can find the project [here]({{ page.repo }})
+
 In this parser we are doing the below:
 1. Lexical Analysis
 2. Syntactical Analysis
@@ -28,30 +32,30 @@ seems to be conformed by the input text. So the formatter only works on the inpu
 3. Lexer in turn uses the `TokenizerFactory` to get the `Tokenizer` based on the current character from the input
 4. `Tokenizer` has method `getToken(Input input)` to generate the token from the specific index we are at.
 5. `Token` is the base interface to represent the type of tokens allowed in the json
-![Class diagram for lexer]({{ page.githubRepo }}UML/Lexer.png{{ page.rawParam }} "Class diagram of Lexer")
+![Class diagram for lexer]({{ page.repo }}{{ page.filePath }}UML/Lexer.png{{ page.rawParam }} "Class diagram of Lexer")
 
 ### Analyzer Diagrams
 #### State diagram
 The DFA for the analyzer of JSON is as below: <br>
-![State diagram for analyzer]({{ page.githubRepo }}UML/DFA-json-analyzer.png{{ page.rawParam }} "State diagram of Analyzer")
+![State diagram for analyzer]({{ page.repo }}{{ page.filePath }}UML/DFA-json-analyzer.png{{ page.rawParam }} "State diagram of Analyzer")
 
 #### Class diagram
 1. `Analyzer` has the method `void analyze(TokenBase tokenBase)` which analyzes the token ordering and lets us know if the standard is followed or not
 2. Each analyzer has the next set of characters set up as per the above DFA and on encountering a character which isn't from the allowed list at a lexeme, we throw exception
 3. Based on the type of `Token` of the `Lexeme`, we find the next Analyzer from the `AnalyzerFactory` and work on its analyze method
 4. This basically follows **Chain of Responsibility pattern**
-![Class diagram for analyzer]({{ page.githubRepo }}UML/Analyzer.png{{ page.rawParam }} "Class diagram of Analyzer")
+![Class diagram for analyzer]({{ page.repo }}{{ page.filePath }}UML/Analyzer.png{{ page.rawParam }} "Class diagram of Analyzer")
 
 ### Parser Diagrams
 1. Parser is the minimal code component in this project
 2. `Parser` has the method `Lexeme parse(List<Lexeme> lexemes)` which takes the Lexemes and build the object out of the lexemes
 3. If there is any unwanted or unexpected lexemes at any instant, exceptions will be thrown
-![Class diagram for Parser]({{ page.githubRepo }}UML/Parser.png{{ page.rawParam }} "Class diagram of Parser")
+![Class diagram for Parser]({{ page.repo }}{{ page.filePath }}UML/Parser.png{{ page.rawParam }} "Class diagram of Parser")
 
 ### Formatter Diagram
 1. `Formatter` has the method `String format(Lexeme lexeme, int depth)` which when given the Lexeme with the value of the json object built by the `Parser`, formats and beautifies it
 2. `FormatterFactory` takes the `Token` as the input and gets the Formatter needed to beautify the token and make a string value out of it
-![Class diagram for Formatter]({{ page.githubRepo }}UML/Formatter.png{{ page.rawParam }} "Class diagram of Formatter")
+![Class diagram for Formatter]({{ page.repo }}{{ page.filePath }}UML/Formatter.png{{ page.rawParam }} "Class diagram of Formatter")
 
 
 ## Test

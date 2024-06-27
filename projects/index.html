@@ -18,6 +18,11 @@ order: 1
                 {{ post.excerpt  | replace:'<p>','' | replace:'</p>','' }}
                 <!-- - {{ post.content | strip_html | truncatewords: 50 }}... -->
             </span>
+            <span>
+                <a href="{{ post.repo }}">
+                    Project link
+                </a>
+            </span>
         </p>
     </div>
   {% endfor %}

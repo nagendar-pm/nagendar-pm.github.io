@@ -3,7 +3,8 @@ layout: post
 title: "YThis - Android messaging app"
 date: 2020-03-01
 categories: projects
-githubRepo : 'https://github.com/nagendar-pm/YThis_Android_Chatapp/blob/master/'
+repo : 'https://github.com/nagendar-pm/YThis_Android_Chatapp/'
+filePath : 'blob/master/'
 rawParam : '?raw=true'
 ---
 
@@ -16,6 +17,7 @@ My primary areas of interest in building this application were learning:
 2. Databases
 3. Android UI
 
+> You can find the project [here]({{ page.repo }})
 
 This is a Chat-app made for Android Operating System, using the IDE Android
 Studio. This project is built with the programming language Java and includes
@@ -27,7 +29,7 @@ in the [Main Activity](#main-activity) image.
 
 <a id="main-activity"></a>
 
-![Main Activity]({{ page.githubRepo }}resources/main-activity-img-portrait.png{{ page.rawParam }})
+![Main Activity]({{ page.repo }}{{ page.filePath }}resources/main-activity-img-portrait.png{{ page.rawParam }})
 *Main Activity*
 
 Here you can login or register, if you have done or haven’t done any registration
@@ -41,14 +43,14 @@ the password, you can reset the password using your registered mail address, as
 shown in the [Reset Password Activity](#reset-password-activity)
 
 <a id="registration-activity"></a>
-![Registration Activity]({{ page.githubRepo }}resources/registration-activity-img-portrait.png{{ page.rawParam }})
+![Registration Activity]({{ page.repo }}{{ page.filePath }}resources/registration-activity-img-portrait.png{{ page.rawParam }})
 *Registration Activity*
 
-![Login Activity]({{ page.githubRepo }}resources/login-activity-img-portrait.png{{ page.rawParam }})
+![Login Activity]({{ page.repo }}{{ page.filePath }}resources/login-activity-img-portrait.png{{ page.rawParam }})
 *Login Activity*
 
 <a id="reset-password-activity"></a>
-![Reset Password Activity]({{ page.githubRepo }}resources/reset-password-activity-img-portrait.png{{ page.rawParam }})
+![Reset Password Activity]({{ page.repo }}{{ page.filePath }}resources/reset-password-activity-img-portrait.png{{ page.rawParam }})
 *Reset Password Activity*
 
 On successful login into the app, you can see the list of users who are already
@@ -60,16 +62,16 @@ any User, you can see a view similar to the [Chat Activity image](#chat-activity
 
 <a id="users-activity"></a>
 
-![User Activity]({{ page.githubRepo }}resources/users-activity-img-portrait.png{{ page.rawParam }})
+![User Activity]({{ page.repo }}{{ page.filePath }}resources/users-activity-img-portrait.png{{ page.rawParam }})
 *User Activity*
 
 <a id="chat-activity"></a>
-![Chat Activity]({{ page.githubRepo }}resources/chat-activity-img-portrait.png{{ page.rawParam }})*Chat Activity*
+![Chat Activity]({{ page.repo }}{{ page.filePath }}resources/chat-activity-img-portrait.png{{ page.rawParam }})*Chat Activity*
 
 You can also edit your profile picture, by clicking on the camera icon at the
 bottom right of the picture, which opens your gallery and asks you to select an
 image as shown in the [Profile Activity image](#profile-activity).
 
 <a id="profile-activity"></a>
-![Profile Activity]({{ page.githubRepo }}resources/profile-activity-img-portrait.png{{ page.rawParam }})
+![Profile Activity]({{ page.repo }}{{ page.filePath }}resources/profile-activity-img-portrait.png{{ page.rawParam }})
 *Profile Activity*

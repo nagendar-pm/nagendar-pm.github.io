@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro
+title: Introduction
 ---
 
 Hey there,

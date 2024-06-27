@@ -3,15 +3,18 @@ layout: post
 title: "Cut Command line tool"
 date: 2024-01-02
 categories: projects
-githubRepo : 'https://github.com/nagendar-pm/cut-command-line-tool/blob/main/'
+repo : 'https://github.com/nagendar-pm/cut-command-line-tool/'
+filePath : 'blob/main/'
 rawParam : '?raw=true'
 ---
+
 Perhaps one of the most used command line tool by me in the last 2years was `Cut`. I found it very handy and tried to implement it in my goto language Java. Obviously very perfect replication was achieved!
 
 <!--more-->
 
-# cut-command-line-tool
 A simple implementation of `cut` command in Java
+
+> You can find the project [here]({{ page.repo }})
 
 ### Options and Flags implemented:
 1. Implemented all the possible options in the command utility `-c`, `-b`, and `-f`
@@ -32,7 +35,7 @@ invalid options, args or flags. Any invalid param will fail the flow with an app
 option and flag parsing. 
 5. Next comes the _Execution_, where we execute the command based on the options and flags specified.
 
-![Flow diagram for application]({{ page.githubRepo }}uml/Flow.png{{ page.rawParam }} "Flow diagram of application")
+![Flow diagram for application]({{ page.repo }}{{ page.filePath }}uml/Flow.png{{ page.rawParam }} "Flow diagram of application")
 
 ### Core-Components:
 #### **Processor Service**:
@@ -41,7 +44,7 @@ service. First of all, the input is checked for any pipes if present and handled
 2. In the below image, both `CommandValidatorFactory` and `CommandExecutorFactory` are the entry points
 into the Validator and Executor services respectively. These components and explained neatly in the below sections.
 
-![Class diagram for Processor]({{ page.githubRepo }}uml/Architecture.png{{ page.rawParam }} "Class diagram of Architecture")
+![Class diagram for Processor]({{ page.repo }}{{ page.filePath }}uml/Architecture.png{{ page.rawParam }} "Class diagram of Architecture")
 
 
 #### **Command Validator**: 
@@ -51,7 +54,7 @@ a related message if it isn't a valid one.
 <br>
 The class diagram for the same can be found below:
 
-![Class diagram for Validator]({{ page.githubRepo }}uml/Validator.png{{ page.rawParam }} "Class diagram of Validator")
+![Class diagram for Validator]({{ page.repo }}{{ page.filePath }}uml/Validator.png{{ page.rawParam }} "Class diagram of Validator")
 
 
 #### **Command Executor**: 
@@ -61,7 +64,7 @@ The class diagram for the same can be found below:
 <br>
 The class diagram for the same can be found below:
 
-![Class diagram for Executor]({{ page.githubRepo }}uml/Executor.png{{ page.rawParam }} "Class diagram of Executor")
+![Class diagram for Executor]({{ page.repo }}{{ page.filePath }}uml/Executor.png{{ page.rawParam }} "Class diagram of Executor")
 
 
 ### Representation
@@ -71,7 +74,7 @@ The class diagram for the same can be found below:
 processing further. 
 3. Else we will use `InputCommand` while validation and `ProcessedCommand` in case of Execution.
 
-![Class diagram for Command]({{ page.githubRepo }}uml/Command.png{{ page.rawParam }} "Class diagram of Command")
+![Class diagram for Command]({{ page.repo }}{{ page.filePath }}uml/Command.png{{ page.rawParam }} "Class diagram of Command")
 
 #### Range
 1. The main use-case of cut command lies in its ability to handle the range of columns, which are represented here
@@ -79,7 +82,7 @@ as `Range`s.
 2. `Range` has _from_ and _to_ attributes.
 3. Ranges are resolved from the command by `RangeResolver` and are passed in the `ProcessedCommand` for the execution.
 
-![Class diagram for Range]({{ page.githubRepo }}uml/Range.png{{ page.rawParam }} "Class diagram of Range")
+![Class diagram for Range]({{ page.repo }}{{ page.filePath }}uml/Range.png{{ page.rawParam }} "Class diagram of Range")
 
 ## Sample Run
 ### -b option
