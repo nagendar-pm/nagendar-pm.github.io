@@ -45,7 +45,7 @@ Now coming to my skills and the tech stack I've worked on till now
 ## Interests
 From sometime I'm really interested in **Compilers**. I've built some projects around the idea of parsing and analysing a particular sytax (ofcourse in any form of input this happens). If you happen to know anything about this or have the same interests, you can contact me; I'm someone who is very eager to expand my circle!
 
-My main languages of development are Java and Python as of now. But I'm trying to expand my breadth too. And I worked on frameworks based out of these languages and happen to have a good depth over them!
+My main languages of development are `Java` and `Python` as of now. But I'm trying to expand my breadth too. And I worked on frameworks based out of these languages and happen to have a good depth over them. I tend to possess a good grip and understanding of Design principles and patterns followed in enterprises too!
 
 Something else, which really needs to be spoken here is that I'm an ardent follower and fan of **Anime**. So look at it...
 
