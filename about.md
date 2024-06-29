@@ -6,7 +6,7 @@ title: About
 Let's dig a bit about me!
 
 ## Education
-You can find my education below
+Here's a snapshot of my educational journey:
 
 <table>
   <thead>
@@ -14,41 +14,47 @@ You can find my education below
       <th>Education</th>
       <th>Institute</th>
       <th>Duration</th>
-      <th>Place</th>
+      <th>Location</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>B.Tech in Compute Science</td>
+      <td>B.Tech in Computer Science</td>
       <td>IIT Bhilai</td>
       <td>August 2018 – May 2022</td>
       <td>Chhattisgarh, India</td>
     </tr>
     <tr>
       <td>Intermediate</td>
-      <td>Narayana Junior College </td>
+      <td>Narayana Junior College</td>
       <td>June 2016 – May 2018</td>
       <td>Telangana, India</td>
     </tr>
   </tbody>
 </table>
 
-## Tech skills
-Now coming to my skills and the tech stack I've worked on till now
+## Technical Skills
+Here's an overview of my technical skills and the tech stack I've worked with:
 
-* **Languages**: Java, Python, C, Bash, HTML, CSS
-* **Frameworks**: Spring Boot, Spring Framework, JUnit, Flask
-* **Software**: Git, SQL, MongoDB, DynamoDB, AWS, Redis, Kafka, Docker
-* **Developer Tools**: IntelliJ Idea, VSCode, Postman, Github
-* **Monitoring Tools**: Grafana, Prometheus, Kibana, Pinpoint
+- **Languages**: Java, Python, C, Bash, HTML, CSS
+- **Frameworks**: Spring Boot, Spring Framework, JUnit, Flask
+- **Software**: Git, SQL, MongoDB, DynamoDB, AWS, Redis, Kafka, Docker
+- **Developer Tools**: IntelliJ IDEA, VSCode, Postman, GitHub
+- **Monitoring Tools**: Grafana, Prometheus, Kibana, Pinpoint
 
 ## Interests
-Since I started my professional career my time has been spent in one way or the other in building microservices. This is the main reason **distributed systems** piqued my interest. The way systems are built to be scaled for millions of users, to be available, reliable, tolerant to failures is really interesting. It feels exhilarating to design and work on such systems. I'm currently learning how to build different kinds of services both in higher and lower levels. 
+### Distributed Systems
+My professional journey has fueled my fascination with **distributed systems**. I am captivated by how systems are designed to scale for millions of users, ensuring availability, reliability, and fault tolerance. Currently, I'm learning about building various services at both high and low levels.
 
-From sometime I'm also interested in **Compilers**. I've built some projects around the idea of parsing and analysing a particular sytax (ofcourse in any form of input this happens). If you happen to know anything about this or have the same interests, you can contact me; I'm someone who is very eager to expand my circle!
+### Compilers
+Another area of interest is **compilers**. I've worked on projects involving parsing and analyzing specific syntax. If you share this interest, feel free to reach out—I'm always eager to connect with like-minded individuals!
 
-My main languages of development are `Java` and `Python` as of now. But I'm trying to expand my breadth too. And I worked on frameworks based out of these languages and happen to have a good depth over them. I tend to possess a good grip and understanding of Design principles and patterns followed in enterprises too!
+### Development Focus
+My primary development languages are `Java` and `Python`. I'm constantly expanding my knowledge and have gained significant experience with frameworks based on these languages. I also have a strong grasp of design principles and patterns used in enterprise environments.
 
-Something else, which really needs to be spoken here is that I'm an ardent follower and fan of **Anime**. So look at it...
+### Anime Enthusiast
+Outside of tech, I'm a passionate **anime** fan. Anime has been a significant part of my life, and I'm always excited to discuss it with fellow enthusiasts!
 
-Thanks for reading!
+
+Thanks for taking the time to read about me! <br>
+Feel free to reach out if you'd like to connect.
