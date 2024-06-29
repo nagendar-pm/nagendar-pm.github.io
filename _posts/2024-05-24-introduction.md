@@ -13,7 +13,6 @@ My main areas of work include Backend development in Java, Python, and Framework
 
 ### Get in touch
 Feel free to contact me through
-- Mobile No: +91-9381512416
 - Mail: [nagender.pm48@gmail.com](mailto:nagender.pm48@gmail.com)
 - LinkedIn: [nagendar-pagidimarri](https://www.linkedin.com/in/nagendar-pagidimarri/)
 
