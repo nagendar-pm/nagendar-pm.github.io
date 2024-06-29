@@ -43,7 +43,7 @@ Now coming to my skills and the tech stack I've worked on till now
 * **Monitoring Tools**: Grafana, Prometheus, Kibana, Pinpoint
 
 ## Interests
-Since I started my professional career my time has been spent in one way or the other in building microservices. This is the main reason distributed systems piqued my interest. The way systems are built to be scaled for millions of users, to be available, reliable, tolerant to failures is really interesting. It feels exhilarating to design and work on such systems. I'm currently learning how to build different kinds of services both in higher and lower levels. 
+Since I started my professional career my time has been spent in one way or the other in building microservices. This is the main reason **distributed systems** piqued my interest. The way systems are built to be scaled for millions of users, to be available, reliable, tolerant to failures is really interesting. It feels exhilarating to design and work on such systems. I'm currently learning how to build different kinds of services both in higher and lower levels. 
 
 From sometime I'm also interested in **Compilers**. I've built some projects around the idea of parsing and analysing a particular sytax (ofcourse in any form of input this happens). If you happen to know anything about this or have the same interests, you can contact me; I'm someone who is very eager to expand my circle!
 
