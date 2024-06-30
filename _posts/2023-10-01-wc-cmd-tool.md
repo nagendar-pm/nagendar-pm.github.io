@@ -31,7 +31,9 @@ Simple command line tool - wc - built using java
 
 ## Diagrams
 1. Class Diagram
+<a href="{{ page.repo }}{{ page.filePath }}resources/wc-command-line-tool-class-diagram.png{{ page.rawParam }}">
 ![Class diagram for wc-command-line-tool]({{ page.repo }}{{ page.filePath }}resources/wc-command-line-tool-class-diagram.png{{ page.rawParam }} "Class diagram")
+</a>
 
 ### Test-Run
 ```commandline

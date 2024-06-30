@@ -33,14 +33,20 @@ The app runs in Android mobile phones without needing any internet connection. I
 4. With the click of save the data button, a folder with the name composed of labels and other details is generated and the images are stored there
 5. The examiner can now move to the next patient
 
+<a href="{{ page.repo }}{{ page.filePath }}img-1.png{{ page.rawParam }}">
 *Demographics Screen*
 ![Demographics Screen]({{ page.repo }}{{ page.filePath }}img-1.png{{ page.rawParam }} "Demographics Screen") 
+</a>
 
+<a href="{{ page.repo }}{{ page.filePath }}img-2.png{{ page.rawParam }}">
 *Dialog for image picking*
 ![Dialog for image picking]({{ page.repo }}{{ page.filePath }}img-2.png{{ page.rawParam }} "Dialog for image picking") 
+</a>
 
+<a href="{{ page.repo }}{{ page.filePath }}img-3.png{{ page.rawParam }}">
 *Inference Screen*
 ![Inference Screen]({{ page.repo }}{{ page.filePath }}img-3.png{{ page.rawParam }} "Inference Screen")
+</a>
 
 
 ## Additional Information

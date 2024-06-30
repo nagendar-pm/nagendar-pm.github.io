@@ -27,10 +27,10 @@ This app is basically a mini Whatsapp clone.
 On successful installation of this app, you can see an Activity like this as shown
 in the [Main Activity](#main-activity) image.
 
-<a id="main-activity"></a>
-
+<a id="main-activity" href="{{ page.repo }}{{ page.filePath }}resources/main-activity-img-portrait.png{{ page.rawParam }}">
 ![Main Activity]({{ page.repo }}{{ page.filePath }}resources/main-activity-img-portrait.png{{ page.rawParam }})
 *Main Activity*
+</a>
 
 Here you can login or register, if you have done or haven’t done any registration
 into the app respectively. You can look at those activities in [Registration and Login image](#registration-activity) respectively.
@@ -42,16 +42,20 @@ toast saying, "You can’t register with this email". During Login, if you forgo
 the password, you can reset the password using your registered mail address, as
 shown in the [Reset Password Activity](#reset-password-activity)
 
-<a id="registration-activity"></a>
+<a id="registration-activity" href="{{ page.repo }}{{ page.filePath }}resources/registration-activity-img-portrait.png{{ page.rawParam }}">
 ![Registration Activity]({{ page.repo }}{{ page.filePath }}resources/registration-activity-img-portrait.png{{ page.rawParam }})
 *Registration Activity*
+</a>
 
+<a id="login-activity" href="{{ page.repo }}{{ page.filePath }}resources/login-activity-img-portrait.png{{ page.rawParam }}">
 ![Login Activity]({{ page.repo }}{{ page.filePath }}resources/login-activity-img-portrait.png{{ page.rawParam }})
 *Login Activity*
+</a>
 
-<a id="reset-password-activity"></a>
+<a id="reset-password-activity" href="{{ page.repo }}{{ page.filePath }}resources/reset-password-activity-img-portrait.png{{ page.rawParam }}">
 ![Reset Password Activity]({{ page.repo }}{{ page.filePath }}resources/reset-password-activity-img-portrait.png{{ page.rawParam }})
 *Reset Password Activity*
+</a>
 
 On successful login into the app, you can see the list of users who are already
 logged in into the app as shown in the [User Activity image](#users-activity). If the profile picture of the
@@ -60,18 +64,20 @@ using the app now. If the dot is gray, it means that the user is offline as show
 You can chat with any user, whom you can see in your users list. On pressing
 any User, you can see a view similar to the [Chat Activity image](#chat-activity).
 
-<a id="users-activity"></a>
-
+<a id="users-activity" href="{{ page.repo }}{{ page.filePath }}resources/users-activity-img-portrait.png{{ page.rawParam }}">
 ![User Activity]({{ page.repo }}{{ page.filePath }}resources/users-activity-img-portrait.png{{ page.rawParam }})
 *User Activity*
+</a>
 
-<a id="chat-activity"></a>
+<a id="chat-activity" href="{{ page.repo }}{{ page.filePath }}resources/chat-activity-img-portrait.png{{ page.rawParam }}">
 ![Chat Activity]({{ page.repo }}{{ page.filePath }}resources/chat-activity-img-portrait.png{{ page.rawParam }})*Chat Activity*
+</a>
 
 You can also edit your profile picture, by clicking on the camera icon at the
 bottom right of the picture, which opens your gallery and asks you to select an
 image as shown in the [Profile Activity image](#profile-activity).
 
-<a id="profile-activity"></a>
+<a id="profile-activity" href="{{ page.repo }}{{ page.filePath }}resources/profile-activity-img-portrait.png{{ page.rawParam }}">
 ![Profile Activity]({{ page.repo }}{{ page.filePath }}resources/profile-activity-img-portrait.png{{ page.rawParam }})
 *Profile Activity*
+</a>

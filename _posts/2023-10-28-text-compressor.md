@@ -22,17 +22,23 @@ Then we serialize the Object `CompressedFileObject`
 containing the Tree with code information and the byte array of the encoding. The serialized object size is
 significantly less in cases of large ascii files compared to small files as the tree information itself is
 huge in the latter cases.<br><br>
+<a href="{{ page.repo }}{{ page.filePath }}uml/EncoderClassDiagram.png{{ page.rawParam }}">
 ![Class diagram for Encoder]({{ page.repo }}{{ page.filePath }}uml/EncoderClassDiagram.png{{ page.rawParam }} "Class diagram of Encoder")
+</a>
 
 ### Decoder
 In Decoder, we take the serialized file object and deserialize it to get the Encoding Tree and byte array of the encoding.
 We then convert the byte array to a string of 0's and 1's. This string of 0's and 1's is then parsed using the Tree
 whence we get the Decoded string.<br><br>
+<a href="{{ page.repo }}{{ page.filePath }}uml/DecoderClassDiagram.png{{ page.rawParam }}">
 ![Class diagram for Decoder]({{ page.repo }}{{ page.filePath }}uml/DecoderClassDiagram.png{{ page.rawParam }} "Class diagram of Decoder")
+</a>
 
 #### Process
 The whole process of Encoding and Decoding is summarized below:<br><br>
+<a href="{{ page.repo }}{{ page.filePath }}uml/Process.png{{ page.rawParam }}">
 ![State diagram of Process]({{ page.repo }}{{ page.filePath }}uml/Process.png{{ page.rawParam }} "State diagram of Process")
+</a>
 
 ### Sample Run
 
