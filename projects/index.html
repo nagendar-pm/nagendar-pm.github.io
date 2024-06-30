@@ -19,8 +19,12 @@ order: 1
                 <!-- - {{ post.content | strip_html | truncatewords: 50 }}... -->
             </span>
             <span>
+                <a href="{{ post.url }}">
+                  Read more
+                </a>
+                &nbsp; 
                 <a href="{{ post.repo }}">
-                    Project link
+                  Project link
                 </a>
             </span>
         </p>

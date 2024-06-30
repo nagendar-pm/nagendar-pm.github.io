@@ -35,7 +35,9 @@ invalid options, args or flags. Any invalid param will fail the flow with an app
 option and flag parsing. 
 5. Next comes the _Execution_, where we execute the command based on the options and flags specified.
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Flow.png{{ page.rawParam }}">
 ![Flow diagram for application]({{ page.repo }}{{ page.filePath }}uml/Flow.png{{ page.rawParam }} "Flow diagram of application")
+</a>
 
 ### Core-Components:
 #### **Processor Service**:
@@ -44,7 +46,9 @@ service. First of all, the input is checked for any pipes if present and handled
 2. In the below image, both `CommandValidatorFactory` and `CommandExecutorFactory` are the entry points
 into the Validator and Executor services respectively. These components and explained neatly in the below sections.
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Architecture.png{{ page.rawParam }}">
 ![Class diagram for Processor]({{ page.repo }}{{ page.filePath }}uml/Architecture.png{{ page.rawParam }} "Class diagram of Architecture")
+</a>
 
 
 #### **Command Validator**: 
@@ -54,7 +58,9 @@ a related message if it isn't a valid one.
 <br>
 The class diagram for the same can be found below:
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Validator.png{{ page.rawParam }}">
 ![Class diagram for Validator]({{ page.repo }}{{ page.filePath }}uml/Validator.png{{ page.rawParam }} "Class diagram of Validator")
+</a>
 
 
 #### **Command Executor**: 
@@ -64,7 +70,9 @@ The class diagram for the same can be found below:
 <br>
 The class diagram for the same can be found below:
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Executor.png{{ page.rawParam }}">
 ![Class diagram for Executor]({{ page.repo }}{{ page.filePath }}uml/Executor.png{{ page.rawParam }} "Class diagram of Executor")
+</a>
 
 
 ### Representation
@@ -74,7 +82,9 @@ The class diagram for the same can be found below:
 processing further. 
 3. Else we will use `InputCommand` while validation and `ProcessedCommand` in case of Execution.
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Command.png{{ page.rawParam }}">
 ![Class diagram for Command]({{ page.repo }}{{ page.filePath }}uml/Command.png{{ page.rawParam }} "Class diagram of Command")
+</a>
 
 #### Range
 1. The main use-case of cut command lies in its ability to handle the range of columns, which are represented here
@@ -82,7 +92,9 @@ as `Range`s.
 2. `Range` has _from_ and _to_ attributes.
 3. Ranges are resolved from the command by `RangeResolver` and are passed in the `ProcessedCommand` for the execution.
 
+<a href="{{ page.repo }}{{ page.filePath }}uml/Range.png{{ page.rawParam }}">
 ![Class diagram for Range]({{ page.repo }}{{ page.filePath }}uml/Range.png{{ page.rawParam }} "Class diagram of Range")
+</a>
 
 ## Sample Run
 ### -b option
