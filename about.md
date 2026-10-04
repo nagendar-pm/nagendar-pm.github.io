@@ -40,11 +40,12 @@ Here's an overview of my technical skills and the tech stack I've worked with:
 - **Frameworks**: Spring Boot, Spring Framework, JUnit, Flask
 - **Software**: Git, SQL, MongoDB, DynamoDB, AWS, Redis, Kafka, Docker
 - **Developer Tools**: IntelliJ IDEA, VSCode, Postman, GitHub
-- **Monitoring Tools**: Grafana, Prometheus, Kibana, Pinpoint
+- **AI-Assisted Development**: Claude, AI-driven planning, design, implementation, and verification
+- **Monitoring Tools**: Datadog, Databricks, Grafana, Prometheus, Kibana, Pinpoint
 
 ## Interests
 ### Distributed Systems
-My professional journey has fueled my fascination with **distributed systems**. I am captivated by how systems are designed to scale for millions of users, ensuring availability, reliability, and fault tolerance. Currently, I'm learning about building various services at both high and low levels.
+My professional journey has fueled my fascination with **distributed systems**. I am captivated by how systems are designed to scale for millions of users, ensuring availability, reliability, and fault tolerance. Currently, I'm learning about building various services at both high and low levels. In the age of AI, my professional and personal growth has been sped up through the usage of AI-assisted workflows, and I'm an active learner about the working and the internals of different models to improve productivity and operational efficiency. 
 
 ### Compilers
 Another area of interest is **compilers**. I've worked on projects involving parsing and analyzing specific syntax. If you share this interest, feel free to reach out—I'm always eager to connect with like-minded individuals!
